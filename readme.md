@@ -1,6 +1,6 @@
 # News Api Fetcher
 This simple news API that fetches the latest articles related to Covid-19 outbreak in India.
-Powered by [NewsAPI.org](newsapi.org) with
+Powered by [NewsAPI.org](https://newsapi.org) with
 
 ## Pre-requisites
 `GO` should be installed on your devices
@@ -9,7 +9,7 @@ Powered by [NewsAPI.org](newsapi.org) with
 1.GET `/articles`   -   returns a list of recent articles related to Covid-19 outbreak in India
 
 ## How to start
-To start the server you first need a [NewsAPI.org](newsapi.org) apiKey. 
+To start the server you first need a [NewsAPI.org](https://newsapi.org) apiKey. 
 After you have the api key follow the below steps
 1. `git clone https://github.com/sarthakpranesh/newsApiFetcher.git`
 2. `cd newsApiFetcher`
