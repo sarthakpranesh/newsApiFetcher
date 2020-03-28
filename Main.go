@@ -104,7 +104,7 @@ func main() {
 	
 	
 	s := &http.Server{
-		Addr:              "0.0.0.0:"+os.Getenv("PORT"),
+		Addr:              "0.0.0.0:"+getEnvVariable("PORT"),
 		Handler:           sm,
 		TLSConfig:         nil,
 		ReadTimeout:       0,
